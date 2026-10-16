@@ -1,0 +1,9 @@
+{
+  "id": "essentials",
+  "name": "Essentials",
+  "version": "0.1.0",
+  "api": "1.0",
+  "main": "Mc.Scripting.Essentials.EssentialsPlugin",
+  "description": "Homes, warps, spawn, teleport requests, back, kits, nicks, private messages (chat hand-off) and the default economy",
+  "authors": ["Ramjet"]
+}
