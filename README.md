@@ -1,5 +1,9 @@
 # Essentials
 
+> **Requires `Ramjet.Api` 1.0.0-preview.3 or newer, and a server that runs it.** This plugin uses the private-message service (`IPrivateMessages`), which is new in that version; it does not compile against or run on older versions.
+>
+> Known issue: with the `chat` plugin installed, Essentials currently fails to enable, because both register `/r`. A fix is coming; until then, run one or the other.
+
 Ramjet's first-party Essentials plugin (`id: essentials`): homes, warps, spawn, teleport requests, back, kits, nicks,
 private messages and the default economy. Clean-room: written from the public command reference and its own design
 (`src/DESIGN.md`). No code of the original plugin was read or copied.
