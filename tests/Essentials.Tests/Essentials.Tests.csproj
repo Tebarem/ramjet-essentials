@@ -18,4 +18,8 @@
       <HintPath>$(RAMJET_HOME)/dotnet/Mc.Scripting.Api.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <!-- the core uses Ramjet API types (compile only: the package has no runtime asset) -->
+    <PackageReference Include="Ramjet.Api" Version="1.0.0-preview.4" />
+  </ItemGroup>
 </Project>

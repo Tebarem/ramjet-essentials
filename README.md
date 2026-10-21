@@ -12,7 +12,7 @@ private messages and the default economy. Clean-room: written from the public co
   `src/essentials.csproj` only exists for an out-of-server compile check). Design notes: `src/DESIGN.md`.
 - `tests/Essentials.Tests/`: unit tests for the storage, teleport, kit, economy and config rules (console app, no packages).
 
-Build and test against an engine build: set `RAMJET_HOME` to the engine's `build/bin` (the folder with `dotnet/Mc.Scripting.Api.dll`).
+The plugin builds against the public [`Ramjet.Api`](https://www.nuget.org/packages/Ramjet.Api) package (`1.0.0-preview.4` or newer) from nuget.org; no engine build is needed.
 
 ```bash
 dotnet build src/essentials.csproj
